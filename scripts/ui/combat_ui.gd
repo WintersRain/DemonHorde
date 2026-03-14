@@ -91,7 +91,7 @@ func _on_cell_hovered(cell: Vector2i) -> void:
 		GameEnums.DamageType.ANTI_HORDE: dmg_name = "Anti-Horde"
 		GameEnums.DamageType.PRECISION: dmg_name = "Precision"
 
-	var personality_name := GameEnums.Personality.keys()[squad.personality]
+	var personality_name: String = GameEnums.Personality.keys()[squad.personality]
 
 	var side := "[color=red]DEMON[/color]" if squad.is_player else "[color=cyan]HUMAN[/color]"
 

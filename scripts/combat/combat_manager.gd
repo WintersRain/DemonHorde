@@ -292,7 +292,7 @@ func _process_enemy_turn() -> void:
 
 	turn_manager.finish_enemy_phase()
 
-	if turn_manager.current_phase == Phase.PLAYER_SELECT:
+	if turn_manager.current_phase == TurnManager.Phase.PLAYER_SELECT:
 		_log("Turn %d — Select a squad to command." % turn_manager.current_turn)
 
 
