@@ -1,0 +1,28 @@
+# Godot 4 gitignore
+
+# Generated files
+.godot/
+
+# Imported resources
+*.import
+
+# Mono/.NET (not using, but just in case)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Export builds
+export/
+*.pck
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
