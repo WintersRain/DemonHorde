@@ -7,7 +7,7 @@
 config/name="Demon Horde"
 config/description="Build your horde. Raid the kingdom. Try not to set yourself on fire."
 run/main_scene="res://scenes/main/main.tscn"
-config/features=PackedStringArray("4.4")
+config/features=PackedStringArray("4.6")
 
 [display]
 
